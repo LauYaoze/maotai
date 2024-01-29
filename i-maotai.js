@@ -1,7 +1,7 @@
 /*
  * 脚本名称：i 茅台
  * 更新时间：2023-10-11
- * 定时任务：17 9 * * *
+ * 定时任务：1 9 * * *
  * 脚本说明：自动申购茅台酒，兼容 Node.js 和手机 NE 环境执行。
  * 环境变量：export MT_TOKENS="MT-Device-ID,MT-Token"  // 设备ID,用户TOKEN  多账号用 @ 隔开
  * 环境变量：export MT_PROVINCE="天津市"  // 省份
@@ -85,8 +85,8 @@ let MT_CITY = $.getdata('MT_CITY') || '天津市';
 let MT_DISTRICT = $.getdata('MT_DISTRICT') || '';
 let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '2478|10056';
 let MT_TOKENS = $.getdata('MT_TOKENS') || '';
-let MT_VERSION = $.getdata('MT_VERSION') || '1.4.9';
-let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;16.1.2;Apple;?unrecognized?';
+let MT_VERSION = $.getdata('MT_VERSION') || '1.5.7';
+let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;16.7.2;Apple;?unrecognized?';
 let MT_R = $.getdata('MT_R') || 'clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw==';
 
 if ($.isNode()) {
